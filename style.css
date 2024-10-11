@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #fdf4f5;
+  color: #5f6368;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, em {
+  color: #3a3a3a;
+}
+
+hr {
+  border: 1px solid #d4d4d4;
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* Profile Image */
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ffe4e1;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+/* Footer */
+footer {
+  background-color: #28282B;
+  color: white;
+  padding: 20px;
+}
+
+
+hr {
+  border: 1px solid #d4d4d4;
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* Top Contain Styles */
+.top-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #f8bbd0; /* สีพื้นหลังชมพูกุหลาบ */
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover; /* จัดให้รูปเป็นวงกลม */
+  border: 5px solid white; /* เพิ่มขอบขาว */
+  margin-bottom: 20px;
+}
+
+.intro-text h1 {
+  font-size: 3em;
+  color: #3a3a3a;
+}
+
+.intro-text h2 {
+  font-size: 1.5em;
+  color: #555555;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .intro-text h1 {
+    font-size: 2em;
+  }
+
+  .intro-text h2 {
+    font-size: 1.2em;
+  }
+
+  .top-cloud, .bottom-cloud {
+    width: 100px;
+  }
+}
+
+
+/* Section - Skills */
+#skills {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#skills h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+#skills table {
+  margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+  border-collapse: collapse;
+}
+
+#skills table td {
+  padding: 10px 20px;
+  font-size: 1.2em;
+}
+
+#skills table tr:last-child {
+  border-bottom: none;
+}
+
+.at{
+  width: 20px;
+}
